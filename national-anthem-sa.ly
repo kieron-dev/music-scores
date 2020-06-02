@@ -56,29 +56,24 @@ melody = \relative c'' {
 }
 
 text = \lyricmode {
-  Nko -- si Si -- ke -- le -- li
-  A -- fri -- ka
-  Ma -- lu -- pha -- ka -- nyi swu
-  pho -- ndo lwa -- yo
-  Yi -- zwa i -- mi -- tha -- nda --
-  zo ye -- thu
-  Nko -- si
-  si -- ke -- le -- la
-  thi -- na lu --
-  sa -- pho  lwa -- yo
+  Nko- si Si- ke- le- li A- fri- ka.
+  Ma- lu- pha- ka- nyi- swu pho- ndo lwa- yo
+  Yi- zwa i- mi- tha- nda- zo ye- thu
+  Nko- si si- ke- le- la
+  thi- na lu- sa- pho  lwa- yo
 
-  Mo -- re -- na bo -- lo -- ka se -- tjha -- ba sa he -- so
-  O fe -- di -- se di -- ntwa la ma -- tshwe -- nye -- ho
-  O se bo -- lo -- ke
-  O se bo -- lo -- ke
-  Se -- tjha -- ba sa he - so
-  Se -- tjha -- ba sa South A -- fri -- ka,
-  South A -- fri -- ka
+  Mo- re- na bo- lo- ka se- tjha- ba sa he- so
+  O fe- di- se di- ntwa la ma- tshwe- nye- ho
+  O se bo- lo- ke
+  O se bo- lo- ke
+  Se- tjha- ba sa he - so
+  Se- tjha- ba sa South A- fri- ka,
+  South A- fri- ka
 
-  Uit die blou van on- se he mel,
-  uit die diep- te- van ons see,
+  Uit die blou van on- se he- mel,
+  Uit die diep- te- van ons see,
   Oor ons e- wi- ge ge- berg- tes
-  waar die kran- se- ant- woord gee.
+  Waar die kran- se- ant- woord gee.
 
   Sounds the call to come to- ge- ther,
   and u- ni- ted we shall stand.
