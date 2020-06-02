@@ -1,7 +1,12 @@
 \version "2.20.0"
 
+\paper {
+    page-count=#2
+}
+
 \header {
     title = "NATIONAL ANTHEM of SOUTH AFRICA"
+    composer = "M.L. de Villiers, arr. D. de Villiers"
 }
 
 melody = \relative c'' {
@@ -28,7 +33,7 @@ melody = \relative c'' {
   g8 g g a b b c a |
   \time 2/4 g4 fis |
   \time 4/4 g8 g g b d4 b |
-  a2~a8 c b a |
+  a2~8 c b a |
   g4 b c a |
   g2 a4 c |
   b4. b8 c4 a |
@@ -63,7 +68,7 @@ text = \lyricmode {
   thi- na lu- sa- pho  lwa- yo
 
   Mo- re- na bo- lo- ka se- tjha- ba sa he- so
-  O fe- di- se di- ntwa la ma- tshwe- nye- ho
+  O fe- di- se di- ntwa la ma- tshwe- nye- ho,
   O se bo- lo- ke
   O se bo- lo- ke
   Se- tjha- ba sa he - so
@@ -104,7 +109,7 @@ upper = \relative c {
   <e g>8 <e g> <e g> <c fis a> <d g b> <d g b> <e g c> <c e a> |
   <b d g>4 <a d fis> |
   <b g'>8 <b g'> <b g'> <d b'> <g d'>4 <d b'> |
-  <d fis a>2 ~ <d fis a>8 <e fis c'> <d fis b> <c fis a> |
+  <d fis a>2~8 <e fis c'> <d fis b> <c fis a> |
   <b d g>4 <d g b> <e a c> <c e a> |
   <b d g>2 << { <fis' a>4 <fis a c> } \\ { d2 } >> |
   <d g b>4. <d g b>8 <e g c>4 <c e a> |
@@ -127,7 +132,7 @@ upper = \relative c {
   <a d fis>4 <a d fis> <b d fis b> <b e g> |
   << {e2. d8. fis16} \\ {<b, d>2 cis4 d8. d16} >> |
   <d a'>4 <cis g' a> <d fis a> <d fis d'> |
-  <e g e'>2 <e g b>4 <fis a>8. <e g>16 |
+  <e g d'>2 <e g b>4 <fis a>8. <e g>16 |
   <d fis>4 <a d a'> <b d g b> <cis g' a cis> |
   <d fis a d>1 |
 }
@@ -150,14 +155,14 @@ lower = \relative c, {
   <d d'> <d d'> <d d'>4 <g d'>2 |
 
   <e' b'>4. <d c'>8 g4 <g, g'>8 <g g'> |
-  <g g'>4 <g g'>8 <g g'> << {d''4 c} \\ {d,2} >> |
+  <g g'>4 <fis fis'>8 <g g'> << {d''4 c} \\ {d,2} >> |
   <e b'>4. <d, d'>8 <g d'>4 <c, c'>8 <c c'> |
   <d d'>4 <d d'> |
-  <g d>2 r8 <g, g'>8 <g g'> <b b'> |
-  <d d'>4 <d d'>8 <d d'>~<d d'> <d d'>8 <d d'>4 |
-  <g d'>2 c,8 c'~c c |
-  d, d'~d d d, d'~d d |
-  g, g'~ g g <c,, c'>4 <c c'> |
+  <g d'>2 r8 <g, g'>8 <g g'> <b b'> |
+  <d d'>4 <d d'>8 <d d'>~8 <d d'>8 <d d'>4 |
+  <g d'>2 c,8 c'~8 c |
+  d, d'~8 d d, d'~8 d |
+  g, g'~8 g <c,, c'>4 <c c'> |
   <d d'>4. <d d'>8 <d d'>2 |
   <g d'>4. <a, a'>8 <a a'>4 <a a'> |
   <a a'>2 <a' g'>4 a8. a16 \bar "||"
