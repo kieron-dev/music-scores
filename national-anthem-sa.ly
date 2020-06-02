@@ -33,6 +33,18 @@ melody = \relative c'' {
   g2 a4 c |
   b4. b8 c4 a |
   g4. g8 fis4 a |
+  g4. a8 a4 a |
+  a2. a8. a16 |
+
+  \key d \major
+  d,4 d fis fis |
+  a2 a4 g8 fis |
+  e4 g8( e) d4 cis |
+  d2. a8. a16 |
+  d4 d fis fis |
+  a2 a4 a8 b |
+  cis4 b8( a) b4 e, |
+  a2.
 }
 
 text = \lyricmode {
@@ -52,7 +64,13 @@ text = \lyricmode {
   O se bo -- lo -- ke
   O se bo -- lo -- ke
   Se -- tjha -- ba sa he - so
-  Se -- tjha -- ba sa South A -- fri -- ka
+  Se -- tjha -- ba sa South A -- fri -- ka,
+  South A -- fri -- ka
+
+  Uit die blou van on- se he mel,
+  uit die diep- te- van ons see,
+  Oor ons e- wi- ge ge- berg- tes
+  waar die kran- se- ant- woord gee.
 }
 
 upper = \relative c {
@@ -83,6 +101,18 @@ upper = \relative c {
   <b d g>2 << { <fis' a>4 <fis a c> } \\ { d2 } >> |
   <d g b>4. <d g b>8 <e g c>4 <c e a> |
   <b d g>4. <b d g>8 <a d fis>4 <c d a'> |
+  <b d g>4. <a a'>8 <a a'>4 <a a'> |
+  << { a'2. } \\ { <d, g>4 <cis fis> <a cis e> } >> a8. a16 |
+
+  \key d \major
+  <fis a d>4 <fis a d> <b d fis> <b d fis> |
+  <a cis a'>2 <a d a'>4 <a cis g'>8 <a d fis> |
+  <b d e>4 <b g'>8 <g e'> <fis a d>4 <e a cis> |
+  << { d'2. } \\ { fis,4 cis'8 b a4 } >> <g a>8. <g a>16 |
+  <fis a d>4 <a d> <d fis> <d fis> |
+  << {a'2 a4} \\ {d,4 cis d} >> <d a'>8 <d b'> |
+  <e cis'>4 << { b'8 a } \\ { e4 } >> <fis b>4 <d e> |
+  <cis a'>2.
 
 }
 
@@ -113,6 +143,18 @@ lower = \relative c, {
   d, d'~d d d, d'~d d |
   g, g'~ g g <c,, c'>4 <c c'> |
   <d d'>4. <d d'>8 <d d'>2 |
+  <g d'>4. <a, a'>8 <a a'>4 <a a'> |
+  <a a'>2 <a' g'>4 a8. a16 \bar "||"
+
+  \key d \major
+  <d, d'>4 <cis cis'> <b b'>2 |
+  <fis' fis'> fis'4 e8 d |
+  <g, g'>4 e8 g a4 <a, a'> |
+  <b b'> <a a'>8 <g g'> <fis fis'>4 <e' e'> |
+  <d d'> << {fis' fis b} \\ {d,8 cis b b' a g} >> |
+  <fis a>4 <e g> <d fis> <f a>8 <f a> |
+  <e a>4 <cis cis'> <d b'> <e gis> |
+  << {a2.} \\ {a,4 e' a} >> %<a,, a'>8 <a a'> |
 }
 
 \score {
