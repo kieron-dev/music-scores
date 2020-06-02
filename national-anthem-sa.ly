@@ -44,7 +44,15 @@ melody = \relative c'' {
   d4 d fis fis |
   a2 a4 a8 b |
   cis4 b8( a) b4 e, |
-  a2.
+  a2. fis8 a |
+  b4 b fis fis |
+  a2 a4 a8 g |
+  fis4 fis b g |
+  e2. d8. fis16 |
+  a4 a a d |
+  d2 b4 a8. g16 |
+  fis4 a b cis |
+  d1 \bar "|."
 }
 
 text = \lyricmode {
@@ -71,6 +79,11 @@ text = \lyricmode {
   uit die diep- te- van ons see,
   Oor ons e- wi- ge ge- berg- tes
   waar die kran- se- ant- woord gee.
+
+  Sounds the call to come to- ge- ther,
+  and u- ni- ted we shall stand.
+  Let us live and strive for free- dom
+  in South A- fri- ca our Land.
 }
 
 upper = \relative c {
@@ -112,8 +125,16 @@ upper = \relative c {
   <fis a d>4 <a d> <d fis> <d fis> |
   << {a'2 a4} \\ {d,4 cis d} >> <d a'>8 <d b'> |
   <e cis'>4 << { b'8 a } \\ { e4 } >> <fis b>4 <d e> |
-  <cis a'>2.
+  <cis a'>2. <d fis>8 <d fis a> |
 
+  <d fis b>4 <d fis b> <a d fis> <a d fis> |
+  << { <e' a>2 <e a>4 a8 g } \\ {d4 b cis <a e'>} >> |
+  <a d fis>4 <a d fis> <b d fis b> <b e g> |
+  << {e2. d8. fis16} \\ {<b, d>2 cis4 d8. d16} >> |
+  <d a'>4 <cis g' a> <d fis a> <d fis d'> |
+  <e g e'>2 <e g b>4 <fis a>8. <e g>16 |
+  <d fis>4 <a d a'> <b d g b> <cis g' a cis> |
+  <d fis a d>1 |
 }
 
 lower = \relative c, {
@@ -154,7 +175,16 @@ lower = \relative c, {
   <d d'> << {fis' fis b} \\ {d,8 cis b b' a g} >> |
   <fis a>4 <e g> <d fis> <f a>8 <f a> |
   <e a>4 <cis cis'> <d b'> <e gis> |
-  << {a2.} \\ {a,4 e' a} >> %<a,, a'>8 <a a'> |
+  << {a2.} \\ {a,4 e' a} >> <a,, a'>8 <a a'> |
+
+  <a a'>4 <a a'>8 <a a'> <a a'>4 <a a'>8 <a a'> |
+  <a a'>4 <a a'>8 <a a'> <a a'>4 <cis cis'> |
+  <d d'> <cis cis'> <b b'> <e e'> |
+  <g g'>2 <a a'>4 <b b'>8. <b b'>16 |
+  <fis fis'>4 <e e'> <d d'> <b b'> |
+  <e e'> <fis fis'> <g g'> <b b'>8. <e b'>16 |
+  <a, a'>8 <g g'> <fis fis'>4 <g g'>8 <fis fis'> <e e'>4 |
+  <d d'>1 |
 }
 
 \score {
